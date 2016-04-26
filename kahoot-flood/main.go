@@ -14,8 +14,8 @@ import (
 
 func main() {
 	if len(os.Args) != 3 && len(os.Args) != 4 {
-		fmt.Fprintln(os.Stderr, "Usage: flood <game pin> <nickname prefix> <count>")
-		fmt.Fprintln(os.Stderr, "       flood <game pin> <name_list.txt>")
+		fmt.Fprintln(os.Stderr, "Usage: flood <401835> <silja> <20>")
+		fmt.Fprintln(os.Stderr, "       flood <401835> <sille.txt>")
 		os.Exit(1)
 	}
 
